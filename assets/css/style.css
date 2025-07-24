@@ -3,17 +3,14 @@
 body{
     background-color: black;
     font-family: "Raleway", sans-serif;
+    justify-content: center;
+    text-align: center;
 }
 
 header{
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(49, 168, 221, 0.4)), url(../images/banner.png);
-    text-align: center;
     width: 1440;
     height: 605;
-    opacity: 1;
-    border-bottom-width: 1px;
-
-
 }
 
 .banner-content{
@@ -22,7 +19,6 @@ header{
     top: 56px;
     left: 465px;
     gap: 16px;
-    opacity: 1;
 }
 
 h1{
@@ -42,4 +38,38 @@ p{
     color: white;
 }
 
+#course-content{
+    width: 792;
+    height: 325;
+    top: 669px;
+    left: 332px;
 
+}
+
+.module {
+    width: 535;
+    height: 51;
+    border-radius: 57px;
+    border-width: 1px;
+    padding-top: 16px;
+    padding-right: 127px;
+    padding-bottom: 16px;
+    padding-left: 127px;
+    background: rgba(37, 37, 37, 1);
+    color: white;
+}
+
+span{
+    color: rgba(51, 168, 219, 1);
+}
+
+footer{
+    font-weight: 400;
+}
+
+a{
+    color: rgba(51, 168, 219, 1);
+    text-decoration: none;
+    text-decoration: solid;
+    font-weight: 700;
+}
