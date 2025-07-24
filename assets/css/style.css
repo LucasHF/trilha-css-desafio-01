@@ -8,10 +8,38 @@ body{
 header{
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(49, 168, 221, 0.4)), url(../images/banner.png);
     text-align: center;
+    width: 1440;
+    height: 605;
+    opacity: 1;
+    border-bottom-width: 1px;
+
+
 }
 
-header h1{
+.banner-content{
+    width: 510;
+    height: 393;
+    top: 56px;
+    left: 465px;
+    gap: 16px;
+    opacity: 1;
+}
+
+h1{
     background-image: linear-gradient(rgb(51, 168, 219), rgb(20, 114, 183));
     color: transparent;
     background-clip: text;
+    text-transform: uppercase;
+    font-weight: 900;
 }
+
+
+h2{
+    color: rgba(51, 168, 219, 1);
+}
+
+p{
+    color: white;
+}
+
+
