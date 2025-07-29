@@ -85,6 +85,16 @@ button {
     color: white;
 }
 
+h2{
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 32px;
+    line-height: 100%;
+    letter-spacing: 19%;
+    text-transform: uppercase;
+}
+
+
 /*----------FOOTER---------*/
 footer{
     font-weight: 400;
