@@ -6,6 +6,7 @@ body{
     justify-content: center;
     text-align: center;
     color: white;
+    margin: 0px;
 }
 
 p{
@@ -111,6 +112,8 @@ h2{
     padding: 80px 20px;
     display: flex;
     justify-content: flex-start;
+    border-bottom: 1px solid #33a8db;
+
 }
 
 #transform-world > p{
@@ -127,9 +130,13 @@ h2{
 
 }
 
+
 /*----------FOOTER---------*/
 footer{
     font-weight: 400;
+    border-top: 1px solid #33a8db;
+    padding-top: 40px;
+    background-image: linear-gradient(rgba(49, 168, 221, 0.2), rgba(0, 0, 0, 0.6));
 }
 
 a{
